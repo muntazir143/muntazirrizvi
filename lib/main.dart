@@ -11,9 +11,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Muntazir Rizvi',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: HomePage(),
     );
   }
